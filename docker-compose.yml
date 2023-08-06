@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  app:
+   build: ./infra/php
+   volumes:
+    - /home/takemori/Repositories/laravel-docker/src/data
